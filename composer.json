@@ -1,0 +1,19 @@
+{
+    "name": "control/assert",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Control\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Petr Hrabina",
+            "email": "petr.hrabina@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.3"
+    }
+}
