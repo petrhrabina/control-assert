@@ -9,11 +9,9 @@
         [ "@semantic-release/commit-analyzer", {
                 "preset": "angular",
                 "releaseRules": [
-                { "type": "breaking", "release": "major" },
-                { "type": "feature", "release": "minor" },
-                { "type": "fix", "release": "patch" },
-                { "type": "refactor", "release": "patch" },
-                { "type": "performance", "release": "patch" }
+                { "type": "major", "release": "major" },
+                { "type": "minor", "release": "minor" },
+                { "type": "patch", "release": "patch" }
             ]
         } ],
     "@semantic-release/release-notes-generator",
